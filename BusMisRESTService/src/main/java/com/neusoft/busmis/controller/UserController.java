@@ -6,5 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value="/user")
 public class UserController {
+	@RequestMapping(value="/info")
+	public String getInfo() throws Exception{
+		
+		return "ok";
+	}
 
 }
