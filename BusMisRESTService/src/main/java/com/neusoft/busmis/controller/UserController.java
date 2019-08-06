@@ -12,5 +12,9 @@ public class UserController {
 		
 		return "OK";
 	}
+	@RequestMapping(value="/add",method= {RequestMethod.GET,RequestMethod.POST})
+	public String add() throws Exception{
+		return "ADD OK";
+	}
 
 }
