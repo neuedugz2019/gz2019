@@ -9,7 +9,7 @@ public class UserController {
 	@RequestMapping(value="/info")
 	public String getInfo() throws Exception{
 		
-		return "ok";
+		return "OK";
 	}
 
 }
